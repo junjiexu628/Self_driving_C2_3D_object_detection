@@ -37,6 +37,7 @@
 ![BEV_PCL](https://github.com/junjiexu628/Self_driving_C2_3D_object_detection/blob/main/images/task4_intensity1.PNG)
 
 ## Section 3 : Model-based Object Detection in BEV Image
+- Based on the fpn-resnet config model
 
 - Point cloud image on frame 1
 ![BEV_detection](https://github.com/junjiexu628/Self_driving_C2_3D_object_detection/blob/main/images/frame1_pcl1.PNG)
@@ -53,5 +54,12 @@
 
 ## Section 4 : Performance Evaluation for Object Detection
 
+- Based on the default darknet config model
+- The object detection performance shows the FN is higher than the FP when the min.IOU is 0.5. More vehicle cannot be detected, less is detected wrong.
+![eval_detection](https://github.com/junjiexu628/Self_driving_C2_3D_object_detection/blob/main/images/det3_mAP1.PNG)
+![eval_detection](https://github.com/junjiexu628/Self_driving_C2_3D_object_detection/blob/main/images/det3_mAP2.PNG)
+
+# Acknowledgement
+All mentors in Udacity and all students on the knowledge platform. Your answers and support gives me great help. Appreciate all of you.
 
 
